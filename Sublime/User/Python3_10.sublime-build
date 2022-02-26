@@ -1,0 +1,19 @@
+{
+    
+    "cmd":["D:\\Users\\qian9\\AppData\\Local\\Programs\\Python\\Python310\\python3.exe","-u","$file"],
+    "path": "E:\\Program\\Anaconda\\python.exe",
+    "file_regex":"^[]*File \"(...*?\",line([0-9]*)",
+    "selector":"source.python",
+    // 防止中文乱码
+    "encoding":"cp936", 
+    // 虚拟环境
+    "env": {"E:\\Program\\Anaconda\\envs\\mask1": "utf-8"},
+    "variants":
+    [
+        {
+            "name": "Syntax Check",
+            "shell_cmd": "python -m py_compile \"${file}\"",
+        }
+    ]
+
+}

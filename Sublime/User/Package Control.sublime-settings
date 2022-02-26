@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"E:\\Program\\Sublime Text 3\\Sublime Text 3\\Channel\\channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"MarkdownPreview",
+		"Package Control",
+		"PackageResourceViewer",
+		"SideBarEnhancements",
+		"SublimeREPL",
+		"SublimeTmpl",
+		"Virtualenv"
+	]
+}

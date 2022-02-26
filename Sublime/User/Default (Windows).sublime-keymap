@@ -1,0 +1,48 @@
+[
+    {
+        "caption": "Tmpl: Create python",
+        "command": "sublime_tmpl",
+        "keys": ["ctrl+alt+m"],
+        "args": {"type": "python"}
+    },
+    {
+        "keys": ["alt+m"],
+        "command": "markdown_preview",
+        "args": {
+            "target": "browser",
+            "parser":"markdown"}
+    },
+    {   
+    "keys":["f5"],
+    "command": "repl_open",
+    "caption": "Python - RUN current file",
+    "id": "repl_python_run",
+    "mnemonic": "R",
+    "args": {
+        "type": "subprocess",
+        "encoding": "utf8",
+        "cmd": ["python", "-u", "$file_basename"],
+        "cwd": "$file_path",
+        "syntax": "Packages/Python/Python.tmLanguage",
+        "external_id": "python",
+        "extend_env": {"PYTHONIOENCODING": "utf-8"}
+        }
+    },
+
+    {
+    "keys": ["f8"],
+    "command": "repl_open",
+    "caption": "Python - PDB current file",
+    "id": "repl_python_pdb",
+    "mnemonic": "D",
+    "args": {
+        "type": "subprocess",
+        "encoding": "utf8",
+        "cmd": ["python", "-i", "-u", "-m", "pdb", "$file_basename"],
+        "cwd": "$file_path",
+        "syntax": "Packages/Python/Python.tmLanguage",
+        "external_id": "python",
+        "extend_env": {"PYTHONIOENCODING": "utf-8"}
+        }
+    }
+]

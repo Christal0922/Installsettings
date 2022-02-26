@@ -1,0 +1,20 @@
+{
+    
+    "cmd":["E:\\Program\\Anaconda\\python.exe","-u","$file"],
+    "path": "E:\\PythonT\\venv\\Pythonana\\Scripts\\python.exe",
+    "env": { "PYTHONPATH":"E:\\PythonT\\venv\\Pythonana\\Scripts"},
+    "file_regex":"^[]*File \"(...*?\",line([0-9]*)",
+    "selector":"source.python",
+    // 防止中文乱码
+    "encoding":"cp936", 
+    // 虚拟环境
+    // "env": {"E:\\Program\\Anaconda\\envs\\mask1": "utf-8"},
+    "variants":
+    [
+        {
+            "name": "Syntax Check",
+            "shell_cmd": "python -m py_compile \"${file}\"",
+        }
+    ]
+
+}

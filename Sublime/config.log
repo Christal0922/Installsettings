@@ -1,0 +1,15 @@
+# E:\Program\Sublime Text 3\Data\Packages\SublimeCodeIntel\.codeintel\config.log
+# 添加python 语法
+"mask1":{
+    "python":"E:/Program/Anaconda/python.exe",
+    "pythonExtraPaths":[
+         "E:/Program/Anaconda/envs/mask1/DLLs",
+         "E:/Program/Anaconda/envs/mask1/Lib",
+         "E:/Program/Anaconda/envs/mask1/Lib/lib-tk",
+         "E:/Program/Anaconda/envs/mask1/Lib/site-packages",
+         "E:/Program/Anaconda/DLLs",
+         "E:/Program/Anaconda/Lib",
+         "E:/Program/Anaconda/Lib/lib-tk",
+         "E:/Program/Anaconda/Lib/site-packages",
+    ]
+}

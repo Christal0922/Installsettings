@@ -1,0 +1,9 @@
+
+{
+    "python_interpreter":"E:\\Program\\Anaconda\\python.exe",
+    "suppress_word_completions":true,
+    "suppress_explicit_completions":true,
+    "comlete_parameters":true,
+    "swallow_startup_errors":true,
+    "anaconda_linting":false
+}

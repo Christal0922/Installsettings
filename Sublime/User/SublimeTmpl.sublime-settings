@@ -1,0 +1,14 @@
+{  
+    "disable_keymap_actions": false, // "all"; "html,css"  
+    "date_format" : "%Y-%m-%d %H:%M:%S",  
+    "attr": {  
+            "author": "Christal" ,
+            "email": "Christal0922@163.com",
+            "link": "https://www.cnblogs.com/Christal0922/",
+            "software": "sublime text3",
+            "pythonVersion": "Python3.9.7",
+            "authorid":"Christal09"
+            } ,
+    "enable_file_variables_on_save": true, 
+    "enable_project_variables": true,
+}
